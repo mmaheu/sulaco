@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
   <style>
     html          { overflow-y:scroll; }
-    body          { padding-top:50px; }
+    body          { background-color: #000; padding-top:50px; }
     #pool-list        { margin-bottom:30px; }
     #pool-form        { margin-bottom:50px; }
   </style>
@@ -53,7 +53,7 @@
           <div class="form-group">
 
             <!-- BIND THIS VALUE TO formData.text IN ANGULAR -->
-            <input type="text" class="form-control input-lg text-center" placeholder="Pool Name" ng-model="formData.text">
+            <input type="text" class="form-control input-lg text-center" placeholder="Spacecraft Name" ng-model="formData.text">
             </br>
             <input type="text" class="form-control input-lg text-center" placeholder="Total Budget" ng-model="formData.amount">
             </br>
@@ -64,7 +64,7 @@
 
 
           <!-- createPool() WILL CREATE NEW POOLS -->
-          <button type="submit" class="btn btn-primary btn-lg" ng-click="createPool()">Add</button>
+          <button type="submit" class="btn btn-primary btn-lg" ng-click="createPool()">Reserve</button>
         </form>
       </div>
     </div>
