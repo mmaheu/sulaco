@@ -1,0 +1,25 @@
+{
+  "name": "Floaty",
+  "version": "0.0.0",
+  "description": "For Whatever Floats your Boat.",
+  "main": "server.js",
+  "author": "Code Martians",
+  "dependencies": {
+    "express": "~4.6.1",
+    "mongoose": "~4.4",
+    "morgan": "~1.1.1",
+    "body-parser": "~1.4.3",
+    "method-override": "~2.1.1"
+  },
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.5",
+    "compass": "^0.1.1",
+    "font-awesome": "^4.4.0",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^1.0.0",
+    "gulp-bower": "0.0.10",
+    "gulp-notify": "^2.2.0",
+    "gulp-ruby-sass": "^0.7.1",
+    "gulp-sass": "^2.0.4"
+  }
+}
