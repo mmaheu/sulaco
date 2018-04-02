@@ -16,7 +16,7 @@ npm-debug.log
 node_modules
 bower_components
 .sass-cache
-
+.DS_Store
 .vs
 *.jsproj
 *.sln
