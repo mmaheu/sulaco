@@ -3,7 +3,7 @@ var router = express.Router();
 
 // about page route (http://localhost:3000/about)
 router.get('/about', function(req, res) {
-    res.send('im the about page!');
+    res.send('The about page!');
 });
 
 router.get('/hello/:name', function(req, res) {
